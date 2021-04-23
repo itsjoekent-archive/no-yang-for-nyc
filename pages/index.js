@@ -13,7 +13,7 @@ export default function Home(props) {
   return (
     <React.Fragment>
       <Head>
-        <title>No Yang for NYC</title>
+        <title>{t('title', content.site)}</title>
       </Head>
       <Page>
         <Logo />
